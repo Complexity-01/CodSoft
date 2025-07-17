@@ -1,0 +1,229 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Times New Roman', Times, serif;
+    cursor:pointer;
+    box-sizing: border-box;
+}
+body{
+    line-height:1.6;
+}
+
+/* hero section */
+.navbar{
+    color:white;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+     font-size:26px;
+    color:rgb(209, 164, 80);
+    font-weight:bold;
+    background-color:#01161e;
+  }
+.navbar a{
+    display:inline;
+    text-decoration:none;
+    color:lightsalmon;
+    font-size:15px;
+    font-weight:300;
+}
+.box:hover{
+    border:2px solid lightsalmon;
+}
+
+/* about and resume section */
+.home{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:black;
+    background-color:rgb(213, 175, 209);
+    flex-wrap:wrap;
+}
+.home-info h1{
+    font-size:30px;
+}
+.home-info pre{
+    font-size:20px;
+    margin:5px 0 20px;
+}
+.btn-icon{
+    display:flex;
+    align-items:center;
+}
+.btn{
+    display:inline-block;
+    padding:5px 15px;
+    background: #0a4d07;
+    border:2px solid #0a4d07;
+    border-radius:30px;
+    box-shadow:0 0 10px #0a4d07;
+    color:blanchedalmond;
+     text-decoration:none;
+     margin-bottom:10px;
+}
+.btn:hover{
+    background:black;
+    box-shadow:none;
+}
+.img-box {
+    position:relative;
+    height:200px;
+    min-width:200px;
+    background:#1f242d;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    overflow:hidden;
+    border:5px solid #020c1e;
+    margin:30px;
+    
+}
+ .img-box img{
+    padding-top:10px; 
+  display: block;
+    } 
+.img-box:hover{
+     transform: translateY(-5px);
+}
+
+/* skills section */
+.skills{
+    color:rgb(12, 11, 11);
+    background-color: #778da9;
+}
+.skills h2{
+    text-align:center;
+    font-size:30px;
+    color:rgba(3, 7, 81, 0.553);
+    }
+.skills .text{
+    text-align:center;
+    font-size:15px;
+    font-weight: bold;
+}
+.skills-logo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    }
+.skills-icon{
+    display:flex;
+    justify-content:center;
+    align-items:space-evenly;
+    margin:10px;
+    border:1px solid rgba(3, 7, 81, 0.553);
+    font-size:15px;
+}
+.skills-icon:hover{
+    transform: translateY(-4px);
+}
+
+/* project section */
+.projects{
+ background-color: #c2b8c0;
+}
+.project-box{
+    display:flex;
+    justify-content:center;
+    padding:5px 5px;
+    flex-wrap:wrap;
+}
+.projects h2{
+    text-align:center;
+    font-size:30px;
+    color:rgb(78, 25, 4);
+   }
+.box1{
+    height:150px;
+    width:230px;
+    margin:10px;
+    box-shadow:0 0 10px #6a1e5b;
+    border-radius:20px;
+    text-align:center;
+}
+.box1:hover{
+    transform: translateY(-6px);
+}
+.box1 h3{
+    margin-left:1rem;
+    margin-right:1rem;
+    text-align:center;
+    color:rgb(49, 72, 7);
+    text-decoration: underline;
+    font-size:1.1rem;
+}
+.box1 p{
+    color: #011e23;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* contact section */
+.contact-class{
+    background-color: #c48694;
+}
+.contact{
+     text-align:center;
+    font-size:30px;
+    color:rgb(143, 56, 21);
+}
+.email{
+    text-align:center;
+    font-size:15px;
+    color:white;
+}
+.form{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.contact-inputs{
+    width:300px;
+    height:40px;
+    border:2px solid #020c1e;
+    outline:none;
+    font-weight:700;
+    background-color:#c7bdc0;
+    color:black;
+    border-radius:50px;
+    margin:5px;
+}
+button{
+    height:30px;
+    color:white;
+    margin:10px;
+    background-color:#020c1e;
+    cursor:pointer;
+}
+button:hover{
+    transform: translateY(-4px);
+}
+
+/* footer section */
+footer{
+    background-color:#131A22;
+}
+.icon{
+    display:flex;
+    justify-content: center;
+}
+.icon a{
+    margin:1px;
+    padding:2px;
+    border-radius:50px;
+}
+.icon a i{
+    font-size:1.7rem;
+    }
+.copyright{
+    background-color:#131A22;
+    text-align:center;
+}
+.copyright p{
+    color:coral;
+}
+    
+   

@@ -1,0 +1,138 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing:border-box;
+    cursor:pointer;
+}
+body{
+    background-color:rgb(254, 229, 196) ;
+}
+
+/* header section */
+
+.navbar{
+    background-color:#ffb5a7;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+      font-size:40px;
+    font-weight:600;
+    color:rgb(126, 28, 126);
+}
+.navbar a{
+    display:inline;
+    text-decoration: none;
+    color:white;
+    font-size:18px;
+    font-weight:400;
+}
+.navbar a:hover{
+    border:2px solid white;
+}
+/* about-section */
+
+.about{
+    color:rgb(225, 92, 92);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:15px;
+    font-weight:bold;
+}
+.img{
+    height:500px;
+    background-image: url("flower2.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity:0.82;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+}
+.about-info p{
+    font-size:25px;
+    color:#1a0120e2;
+    font-weight:bold;
+    text-align:center;
+    padding:10px;
+   }
+.about-btn{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.btn{
+    display:inline-block;
+    padding:5px 10px;
+    background:#994534;
+    border:2px solid #cb887b;
+    border-radius:30px;
+    box-shadow:0 0 10px #ffb5a7;
+    color:blanchedalmond;
+     text-decoration:none;
+     margin-top:10px;
+}
+.btn:hover{
+    transform:scale(1.06);
+    background-color:#cb887b;
+}
+
+/* gallery */
+
+.info-box{
+    display:flex;
+    flex-wrap:wrap;
+   align-items:center;
+   justify-content:center;
+}
+.info-box .box{
+    height:200px;
+    display:flex;
+   align-items:center;
+   justify-content:center;
+    padding:20px;
+     margin:10px; 
+}
+img{
+    height:200px;
+    border:2px solid #ffb5a7;
+    border-radius:20px; 
+    box-shadow:4px 7px 7px 0px #ffb5a7;
+    transition:400ms;
+    }
+ img:hover{
+    filter:#ffb5a7(1);
+    transform:scale(1.06);
+ }   
+
+/* copyright */
+footer{
+    background-color:#ffb5a7;
+}
+
+.icon{
+    display:flex;
+    justify-content: center;
+}
+.icon a{
+    padding:10px;
+    border-radius:50px;
+}
+.icon a:hover{
+       transform: translateY(-4px); 
+}
+.icon a i{
+    font-size:1.4rem;
+    }
+.copyright{
+    text-align:center;
+}
+.copyright p{
+    color:rgb(130, 14, 14);
+    font-size:15px;
+
+}
